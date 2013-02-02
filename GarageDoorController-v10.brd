@@ -2839,7 +2839,7 @@ design rules under a new name.</description>
 <attribute name="MPN" value="237-102" x="-33.02" y="-7.62" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="" x="-33.02" y="-7.62" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="-33.02" y="-7.62" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="3.81" y="31.71" size="1.27" layer="27" ratio="10"/>
+<attribute name="VALUE" x="1.27" y="38.06" size="1.27" layer="27" ratio="10"/>
 <attribute name="NAME" x="1.3462" y="41.9462" size="1.27" layer="25" ratio="10" rot="R270"/>
 </element>
 <element name="X2" library="con-wago-500" package="W237-102" value="Reed Switch" x="6.35" y="26.67" smashed="yes" rot="R270">
@@ -2850,7 +2850,10 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="2.58" y="20.32" size="1.27" layer="27" ratio="10"/>
 <attribute name="NAME" x="1.3462" y="30.5162" size="1.27" layer="25" ratio="10" rot="R270"/>
 </element>
-<element name="Y1" library="SparkFun-FreqCtrl" package="HC49US" value="16MHz" x="36.83" y="30.48" rot="R180"/>
+<element name="Y1" library="SparkFun-FreqCtrl" package="HC49US" value="16MHz" x="36.83" y="30.48" smashed="yes" rot="R180">
+<attribute name="VALUE" x="39.878" y="29.591" size="1.27" layer="27" ratio="10" rot="R180"/>
+<attribute name="NAME" x="41.91" y="27.813" size="1.27" layer="25" ratio="10" rot="R180"/>
+</element>
 <element name="C1" library="rcl" package="E2-5" value="10uF" x="19.05" y="6.35" smashed="yes" rot="R270">
 <attribute name="NAME" x="20.066" y="3.81" size="1.27" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="17.78" y="9.271" size="1.27" layer="27" ratio="10"/>
@@ -2869,15 +2872,21 @@ design rules under a new name.</description>
 <attribute name="MPN" value="" x="0" y="-26.67" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="" x="0" y="-26.67" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="0" y="-26.67" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="16.51" y="11.43" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="11.43" y="10.16" size="1.27" layer="25" rot="R270"/>
 <attribute name="VALUE" x="1.27" y="12.7" size="1.27" layer="27"/>
 </element>
 <element name="R1" library="resistor" package="0204/7" value="220" x="54.61" y="6.858" rot="R90"/>
 <element name="R2" library="resistor" package="0204/7" value="10K" x="12.7" y="26.67" rot="R90"/>
 <element name="R3" library="resistor" package="0204/7" value="10K" x="52.07" y="30.48"/>
 <element name="R4" library="resistor" package="0204/7" value="1K" x="21.59" y="22.86" rot="R90"/>
-<element name="C3" library="domiflichi" package="1440PH" value="1440PH" x="39.37" y="38.1"/>
-<element name="C4" library="domiflichi" package="1440PH" value="1440PH" x="34.29" y="38.1"/>
+<element name="C3" library="domiflichi" package="1440PH" value="1440PH" x="39.37" y="38.1" smashed="yes">
+<attribute name="NAME" x="40.164" y="37.893996875" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="42.370003125" y="35.099996875" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="C4" library="domiflichi" package="1440PH" value="1440PH" x="34.29" y="38.1" smashed="yes">
+<attribute name="NAME" x="34.83" y="37.639996875" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="32.972003125" y="34.845996875" size="1.27" layer="27" rot="R90"/>
+</element>
 <element name="U$1" library="domiflichi" package="PB874" value="PB874FORMA" x="27.94" y="43.815" rot="R180"/>
 <element name="X3" library="con-wago-500" package="W237-102" value="ETH SHLD" x="67.818" y="6.35" smashed="yes">
 <attribute name="OC_NEWARK" value="70K9898" x="85.598" y="-44.45" size="1.778" layer="27" display="off"/>
@@ -2938,13 +2947,13 @@ design rules under a new name.</description>
 <wire x1="20.32" y1="39.37" x2="15.24" y2="34.29" width="0.6096" layer="16"/>
 <wire x1="15.24" y1="34.29" x2="11.43" y2="33.02" width="0.6096" layer="16"/>
 <wire x1="48.26" y1="30.48" x2="50.8" y2="40.64" width="0.6096" layer="16"/>
-<wire x1="50.8" y1="40.64" x2="48.895" y2="42.418" width="0.6096" layer="16"/>
+<wire x1="50.8" y1="40.64" x2="48.895" y2="43.942" width="0.6096" layer="16"/>
 <wire x1="5.08" y1="29.17" x2="11.43" y2="33.02" width="0.6096" layer="16"/>
 <wire x1="38.1" y1="19.05" x2="40.64" y2="19.05" width="0.6096" layer="1"/>
 <wire x1="43.18" y1="26.67" x2="44.45" y2="30.48" width="0.6096" layer="16"/>
 <wire x1="44.45" y1="30.48" x2="48.26" y2="30.48" width="0.6096" layer="16"/>
 <wire x1="27.69" y1="43.565" x2="20.32" y2="39.37" width="0.6096" layer="16"/>
-<wire x1="27.69" y1="43.565" x2="48.895" y2="42.418" width="0.6096" layer="16"/>
+<wire x1="27.69" y1="43.565" x2="48.895" y2="43.942" width="0.6096" layer="16"/>
 <wire x1="43.18" y1="26.67" x2="41.91" y2="29.21" width="0.6096" layer="1"/>
 <wire x1="41.91" y1="29.21" x2="41.91" y2="30.48" width="0.6096" layer="1"/>
 <wire x1="41.91" y1="30.48" x2="40.64" y2="31.75" width="0.6096" layer="1"/>
