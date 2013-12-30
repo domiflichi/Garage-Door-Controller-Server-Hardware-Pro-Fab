@@ -13,4 +13,4 @@ https://github.com/domiflichi/Garage-Door-Controller-Server-Hardware-Home-Fab
 
 For more information and instructions on how to set all of this up and how everything works
 together, please visit the home page of the project on my website:
-http://jamienerd.blogspot.com/enter-url-here
+http://jamienerd.blogspot.com/2013/12/garage-door-controller-tutorial.html
